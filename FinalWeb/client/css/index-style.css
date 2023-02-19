@@ -1,0 +1,86 @@
+body {
+background: url(../img/scene.jpg) no-repeat fixed bottom;
+background-size: 100% 100%;
+}
+
+#container_form {
+    opacity: 0;
+    width: 250px;
+    position: absolute;
+    left: 50vw;
+    top: 50vh;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#container_input {
+    background:  #cfb284;
+    border: 2px #6f5a41 solid;
+    height: 125px;
+    border-radius: 10px;
+}
+
+input {
+    height: 25px;
+    width: 180px;
+    background: #dfcaa0;
+    border: 1px #6f5a41 solid;
+    border-radius: 5px;
+    padding-left: 30px;
+    margin: 5px ;
+}
+
+#user {
+    background: url(../img/icon/user.png) no-repeat scroll 5px #dfcaa0;
+    background-size: 17px;
+    margin-top: 20px;
+}
+
+#pwd {
+    background: url(../img/icon/password.png) no-repeat scroll 5px #dfcaa0;
+    background-size: 15px;
+}
+
+#container_form button {
+    background: linear-gradient(#57f414, #00B712);
+    color: #fff;
+    font-weight: 800;
+    position: relative;
+    top: -25px;
+    width: 125px;
+    height: 50px;
+    border: 2px #6f5a41 solid;    
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+
+#ground {
+    height: 20vh;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: url(./../img/ground.png);
+}
+
+#aide {
+    height: 50px;
+    width: 175px;
+    margin: auto;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    background-color: #dfcaa0;
+    border: 3px #6f5a41 solid; 
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+p {
+    color: #5a4935;
+    font-weight: 600;
+    font-size: .8em;
+    font-family: Verdana, Geneva, Tahoma ,sans-serif;
+}

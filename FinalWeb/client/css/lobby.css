@@ -1,0 +1,51 @@
+body {
+    background: url("../img/scene.jpg") no-repeat fixed center;
+    background-size: 100% 100%;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 5% 25% 5% 60% 5%;
+    grid-template-rows: 10vh ;
+}
+
+.div1 { 
+    grid-area: 2 / 2 / 2 / 2; 
+    display: flex;
+    align-items: center;
+} 
+
+.div2 { 
+    grid-area: 2 / 4 / 2 / 4 ; 
+}
+
+#signout {
+    background-color: #262b2e;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+#signout:hover {
+    background-color: #405058e0;
+    box-shadow: 0 0 10px rgba(31, 29, 29, 0.527);
+    cursor: pointer;
+}
+
+#signout > img {
+    height: 30px; 
+    display: block;
+}
+
+#signout {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+#signout:hover {
+    cursor: pointer;
+}
